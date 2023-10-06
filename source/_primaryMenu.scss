@@ -1,0 +1,14 @@
+.primaryMenu {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        &:hover {
+            color: limegreen;
+        }
+    }
+}

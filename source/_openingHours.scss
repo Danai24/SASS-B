@@ -1,0 +1,19 @@
+.openingHours {
+    border: 1px solid black;
+    width: 80%;
+    &__heading{
+        font-weight: bold;
+    }
+    &__data {
+        &:nth-of-type(odd) {
+            background-color: pink;
+        }
+        &:nth-of-type(even) {
+            background-color: hotpink;
+        }
+        &--day, &--time {
+            font-size: 200%;
+            color: hsl(205, 100%, 28%);
+        }
+    }
+}
